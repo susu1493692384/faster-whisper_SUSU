@@ -1,0 +1,6 @@
+# GUI转录工具依赖
+faster-whisper>=1.0.0
+torch>=2.0
+torchaudio>=2.0
+ctranslate2>=4.6,<5
+av>=11

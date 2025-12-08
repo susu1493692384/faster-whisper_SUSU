@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ln:*)",
+      "Bash(python:*)",
+      "Bash(rm:*)",
+      "Bash(pyinstaller:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

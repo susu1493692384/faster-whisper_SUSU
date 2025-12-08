@@ -1,0 +1,22 @@
+# Faster Whisper 核心依赖
+faster-whisper>=1.0.0
+ctranslate2>=4.6,<5
+huggingface_hub>=0.23
+tokenizers>=0.13,<1
+onnxruntime>=1.14,<2
+torch>=2.0
+torchaudio>=2.0
+
+# 音频处理
+av>=11
+ffmpeg-python>=0.2.0
+
+# 进度条和工具
+tqdm
+click
+
+# 可选：GUI界面依赖（如需使用GUI转录工具）
+# tkinter 通常随Python一起安装，如需单独安装：
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Windows/Mac: 通常已包含在Python安装中
+
